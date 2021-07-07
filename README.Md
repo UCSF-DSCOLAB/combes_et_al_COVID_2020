@@ -18,6 +18,7 @@ All code has been thoroughly documented to describe major code functions.
 
 Certain paths to files and scripts *may* be pointing to the files within our system, but the files/scripts themselves will be within the appropriate auxiliary_* folder within this repository.
 
+All single cell sequencing data is retrievable using the accession [GSE163668](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163668)
 # Analysis pipeline
 
 1. `process_single_library.R` --> processes each library to a identify major cell types
@@ -27,7 +28,10 @@ Certain paths to files and scripts *may* be pointing to the files within our sys
 
 # Citing our work
 
-TBD
+```
+Combes, A.J., Courau, T., Kuhn, N.F. et al. Global absence and targeting of protective immune states in severe COVID-19. Nature 591, 124–130 (2021). https://doi.org/10.1038/s41586-021-03234-7
+```
+
 
 # Contact Info
 
